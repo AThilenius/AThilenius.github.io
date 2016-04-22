@@ -1,1 +1,38 @@
-<h3>Stub</h3>
+<!doctype html>
+<html ng-app="app" ng-controller="homeController"
+      class="{{$root.htmlClass ? $root.htmlClass : 'default-body'}}">
+<head><title ng-bind="$root.title || 'Alec Thilenius'"></title>
+  <base href="/">
+  <link href="build/_bower.css" rel="stylesheet">
+
+  <script src="build/compiled_libs.js"></script>
+
+  <script src="app/app.module.js"></script>
+  <script src="app/app.route.js"></script>
+
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!--Uncomment this to use debug compiled app-->
+  <!--<script src="build/compiled_app.js"></script>-->
+
+  <!-- DO NOT EDIT!!! Auto-import of source files -->
+  <!-- include: "type": "js", "basePath": "", "files": ["app/**/*.js", "!app/*.js"] -->
+  <script src="app/base/array.js"></script>
+  <script src="app/base/objects.js"></script>
+  <script src="app/base/string.js"></script>
+  <script src="app/components/home/home_controller.js"></script>
+  <!-- /include -->
+
+  <!-- include: "type": "css", "basePath": "", "files": ["app/**/*.css"] -->
+  <link rel="stylesheet" type="text/css" href="app/base/base.css" />
+  <link rel="stylesheet" type="text/css" href="app/base/colors.css" />
+  <link rel="stylesheet" type="text/css" href="app/base/fonts.css" />
+  <link rel="stylesheet" type="text/css" href="app/components/home/home.css" />
+  <link rel="stylesheet" type="text/css" href="app/pre_comp_libs/css/font-awesome.css" />
+  <!-- /include -->
+</head>
+<body class="{{$root.bodyClass ? $root.bodyClass : 'default-body'}}">
+<div ui-view></div>
+</body>
+</html>
