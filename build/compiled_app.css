@@ -1,22 +1,10 @@
 /* Bootstrap Path Change */
 
 html {
-  height: 100%;
 }
 
 body {
-  height: 100%;
   font-family: Optima, Segoe, 'Segoe UI', Candara, Calibri, Arial, sans-serif;
-  overflow: hidden;
-}
-
-div {
-  border-collapse: collapse;
-}
-
-div:focus {
-  outline: none;
-  border: 0;
 }
 
 img {
@@ -31,66 +19,6 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-.v-flex-wrapper {
-  -moz-box-orient: vertical;
-  -ms-flex-direction: column;
-  -webkit-box-orient: vertical;
-  -webkit-flex-direction: column;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-
-.h-flex-wrapper {
-  -moz-box-orient: horizontal;
-  -ms-flex-direction: rom;
-  -webkit-box-orient: horizontal;
-  -webkit-flex-direction: row;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-
-.flex-header {
-  -ms-flex: 0 0 auto;
-  -webkit-flex: 0 0 auto;
-  flex: 0 0 auto;
-  position: relative;
-}
-
-.flex-body {
-  -ms-flex: 1 0 auto;
-  -webkit-box-flex: 1.0;
-  -webkit-flex: 1 0 auto;
-  flex: 1 0 auto;
-  position: relative;
-}
-
-.flex-footer {
-  -ms-flex: 0 1 auto;
-  -webkit-flex: 0 1 auto;
-  flex: 0 1 auto;
-  position: relative;
-}
-
-.fill-flex-box {
-  height: 100%;
-  position: absolute;
-  width: 100%;
 }
 
 .fill {
@@ -131,46 +59,6 @@ md-toast {
 ::-webkit-scrollbar-corner,
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(100, 100, 100, 0.4);
-}
-
-
-/*Angular Material List Items (shrink)*/
-
-md-list-item,
-md-list-item .md-list-item-inner {
-  min-height: 0px !important;
-}
-
-md-slider {
-  height: 20px !important;
-  top: -10px !important;
-}
-
-md-option {
-  height: 22px !important;
-}
-
-
-/*Angular Material Tabs (shrink)*/
-
-md-tabs-canvas {
-  height: 28px;
-}
-
-.md-tab {
-  padding: 4px 10px;
-}
-
-md-pagination-wrapper {
-  height: 15%;
-}
-
-
-/*Angular Material Tooltip (shrink)*/
-
-md-tooltip .md-content {
-  height: 25px;
-  line-height: 25px;
 }
 
 .bg-25 {
@@ -288,6 +176,8 @@ html body {
 .small-font {
   font-size: 0.75em;
 }
+
+
 
 
 

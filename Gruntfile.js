@@ -11,8 +11,8 @@ module.exports = function(grunt) {
     // Concat all Bower components
     'bower_concat': {
       'all': {
-        'dest': 'build/_bower.js',
-        'cssDest': 'build/_bower.css',
+        'dest': 'build/bower.js',
+        'cssDest': 'build/bower.css',
         'mainFiles': {
           'ace-builds': [
             'src-min-noconflict/ace.js',
@@ -43,7 +43,7 @@ module.exports = function(grunt) {
     // Compile libraries and source
     'closure-compiler': {
       'libs': {
-        'js': ['build/_bower.js', 'build/lb-services.js'],
+        'js': ['build/bower.js', 'build/lb-services.js'],
         'jsOutputFile': 'build/compiled_libs.js',
         'maxBuffer': 5000,
         'options': {
