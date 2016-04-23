@@ -82,9 +82,10 @@ module.exports = function(grunt) {
       }
     },
 
-    'serve': {
-      'options': {
-        'port': 80
+    'http-server': {
+      'dev': {
+        port: 80,
+        host: '0.0.0.0'
       }
     }
 
@@ -97,7 +98,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-include-source');
   grunt.loadNpmTasks('grunt-shell');
   grunt.loadNpmTasks('grunt-text-replace');
-  grunt.loadNpmTasks('grunt-serve');
+  grunt.loadNpmTasks('grunt-http-server');
 
   grunt.registerTask('default', []);
 

@@ -338,4 +338,924 @@ build/_bower.js:105790: WARNING - If this if/for/while really shouldn't have a b
                     for (position = Index; position < length && ((charCode = source.charCodeAt(position)), charCode >= 48 && charCode <= 57); position++);
                                                                                                                                                          ^
 
-0 error(s), 85 warning(s)
+build/_bower.js:146710: WARNING - Suspicious code. Is there a missing '+' on the previous line?
+"use strict";
+^
+
+build/_bower.js:148609: WARNING - Suspicious code. The result of the 'not' operator is not being used.
+                  !(function webpackMissingModule() { var e = new Error("Cannot find module \"./locale\""); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+                  ^
+
+build/_bower.js:157653: WARNING - Suspicious code. Is there a missing '+' on the previous line?
+  var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;'use strict';
+                                                                                                  ^
+
+build/_bower.js:157658: WARNING - Suspicious code. The result of the 'not' operator is not being used.
+      !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+      ^
+
+build/_bower.js:157659: WARNING - unreachable code
+    } else if (typeof exports === 'object') {
+           ^
+
+build/_bower.js:157693: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    return function propagating(hammer, options) {
+    ^
+
+build/_bower.js:160448: WARNING - Suspicious code. The result of the 'not' operator is not being used.
+      !(__WEBPACK_AMD_DEFINE_RESULT__ = function() {
+      ^
+
+build/_bower.js:160451: WARNING - unreachable code
+  } else if (typeof module != 'undefined' && module.exports) {
+         ^
+
+build/_bower.js:160464: WARNING - Suspicious code. Is there a missing '+' on the previous line?
+  var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;"use strict";
+                                                                                                  ^
+
+build/_bower.js:160474: WARNING - Suspicious code. The result of the 'not' operator is not being used.
+      !(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+      ^
+
+build/_bower.js:160475: WARNING - unreachable code
+    } else if (typeof exports === 'object') {
+           ^
+
+build/_bower.js:161368: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(Configurator, [{
+    ^
+
+build/_bower.js:161539: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161561: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161598: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161616: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161639: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161678: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161748: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161815: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161852: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161880: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161914: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:161947: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162029: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162057: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162163: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(ColorPicker, [{
+    ^
+
+build/_bower.js:162182: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162197: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162228: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162301: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162377: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162407: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162420: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162437: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162700: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162856: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(Validator, null, [{
+    ^
+
+build/_bower.js:162876: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162894: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:162928: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:163026: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:175841: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+      _createClass(Images, [{
+      ^
+
+build/_bower.js:175861: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+      }, {
+         ^
+
+build/_bower.js:175884: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+      }, {
+         ^
+
+build/_bower.js:175898: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+      }, {
+         ^
+
+build/_bower.js:176034: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176067: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176291: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176425: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176460: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176515: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176529: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176562: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176584: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176748: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(Node, [{
+    ^
+
+build/_bower.js:176761: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176776: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176853: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176962: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176975: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176986: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:176997: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177008: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177021: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177046: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177068: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177080: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177092: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177250: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177287: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177378: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177398: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177420: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:177451: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179308: WARNING - Parse error. extra visibility tag
+       * @private
+         ^
+
+build/_bower.js:179311: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179622: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(Edge, [{
+    ^
+
+build/_bower.js:179685: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179784: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179795: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179806: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179820: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179862: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179953: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:179979: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180004: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180029: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180176: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(CubicBezierEdge, [{
+    ^
+
+build/_bower.js:180256: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180332: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(CubicBezierEdgeBase, [{
+    ^
+
+build/_bower.js:180418: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(BezierEdgeBase, [{
+    ^
+
+build/_bower.js:180481: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180576: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180736: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180755: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180813: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180893: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180921: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:180983: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:181068: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:181202: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:181257: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:181288: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:181357: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(BezierEdgeStatic, [{
+    ^
+
+build/_bower.js:181387: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:181567: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:181625: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(StraightEdge, [{
+    ^
+
+build/_bower.js:181651: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:181878: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182252: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182285: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182536: WARNING - Suspicious code. The result of the 'getprop' operator is not being used.
+      this.barnesHutTree;
+      ^
+
+build/_bower.js:182603: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182651: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182681: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182767: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182793: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182831: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182868: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182902: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182960: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:182980: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:183293: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:183567: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(ForceAtlas2BasedRepulsionSolver, [{
+    ^
+
+build/_bower.js:183702: WARNING - Suspicious code. This code lacks side-effects. Is there a bug?
+        if (options !== undefined) {}
+        ^
+
+build/_bower.js:183711: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:183742: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:183786: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:183869: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:183883: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:183898: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:183973: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184058: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184082: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184224: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184242: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184268: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184436: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184462: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184623: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184637: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184858: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184945: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:184981: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185029: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185382: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185474: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185488: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185502: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185515: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185528: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185605: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185674: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185698: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185751: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:185846: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186006: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186021: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186106: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186177: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186362: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186385: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186437: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186484: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186546: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:186640: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187054: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(Popup, [{
+    ^
+
+build/_bower.js:187066: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187082: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187204: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187296: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187318: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187337: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187365: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187384: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187400: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187426: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187443: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187460: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187499: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187518: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187536: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187554: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187573: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187597: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187620: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187640: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187657: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187674: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187773: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187788: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187809: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187829: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:187876: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:188290: WARNING - unreachable code
+            return;
+            ^
+
+build/_bower.js:188778: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:188819: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:188866: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:188906: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:188965: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:188992: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189009: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189045: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189067: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189139: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189224: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189288: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189311: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189354: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189387: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189403: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:189524: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190010: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190142: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190230: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190244: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190295: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190341: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190355: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190390: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190414: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190528: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:190598: WARNING - unreachable code
+            this.showManipulatorToolbar();
+            ^
+
+build/_bower.js:191247: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    _createClass(KamadaKawai, [{
+    ^
+
+build/_bower.js:191266: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:191329: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:191370: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:191404: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:191448: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+build/_bower.js:191469: WARNING - Misplaced function annotation. This JSDoc is not attached to a function node. Are you missing parentheses?
+    }, {
+       ^
+
+0 error(s), 315 warning(s)

@@ -62,4 +62,10 @@ var newGuid = newUuid = function $newUuid$() {
   }
   return $rtn$$;
 };
+var forgeApp = angular.module("app");
+forgeApp.controller("hmmController", ["$rootScope", "$scope", "$location", "$mdDialog", "$mdToast", "$timeout", function($$rootScope$$, $$scope$$, $$location$$, $$mdDialog$$, $$mdToast$$, $$timeout$$) {
+}]);
+forgeApp = angular.module("app");
+forgeApp.controller("homeController", ["$rootScope", "$scope", "$location", "$mdDialog", "$mdToast", "$timeout", "$compile", function($$rootScope$$, $$scope$$, $$location$$, $$mdDialog$$, $$mdToast$$, $$timeout$$, $$compile$$) {
+}]);
 

@@ -1,0 +1,88 @@
+<div class="container well" style="margin-top: 20px;">
+  <div style="width:100%; text-align:center;">
+    <h1>Hidden Markov Models</h1>
+    <b>Code and graphs can be changed!</b>
+    <br>
+    <hr>
+    <h3>The Hidden Markov Model</h3>
+    <p>
+      Let's start off by defining a Hidden Markov Model. There isn't a whole lot
+      to it apart from a few different types of probabilities. The first is the
+      start probability, that is, the probability that the sequence starts in
+      that state. Next up is transition probability. That is the general
+      probability that a state (say Sunny) turns into any other state (say
+      Raining). Last are the probabilities of being in any state given an
+      observation.
+    </p>
+  </div>
+  <i>Edit Me</i>
+  <div ui-ace="{
+                 useWrapMode : true,
+                 theme:'twilight',
+                 mode: 'python'
+               }"
+       style="width:100%; height: 200px; border-radius: 5px;"
+       ng-model="pyHmmDataText">
+  </div>
+  <div style="width:100%; text-align:center;">
+    <br>
+    <hr>
+    <h3>What the Hidden Markov Model Looks Like</h3>
+    <p>
+      This is a visualization of that Hidden Markov Model. The graph is
+      interactive.
+    </p>
+  </div>
+  <div style="width: 100%; height: 400px;" ng-model="hmm"
+       at-hmm-visualizer></div>
+  <div style="width:100%; text-align:center;">
+    <br>
+    <hr>
+    <h3>Observations</h3>
+    <p>
+      From there we can start using the HMM. Let's define a set of observations
+      we want to run the Viterbi algorithm with.
+    </p>
+  </div>
+  <i>Edit Me</i>
+  <div ui-ace="{
+                 useWrapMode : true,
+                 theme:'twilight',
+                 mode: 'python'
+               }"
+       style="width:100%; height: 150px; border-radius: 5px;"
+       ng-model="pyObservationsText">
+  </div>
+  <div style="width:100%; text-align:center;">
+    <br>
+    <hr>
+    <h3>Viterbi</h3>
+    <p>
+      Finally let's run the Viterbi algorithm against both the HMM and our
+      observations. The nieve implementation isn't too complicated, just a lot
+      of loops.
+    </p>
+  </div>
+  <i>Edit Me</i>
+  <div ui-ace="{
+                 useWrapMode : true,
+                 theme:'twilight',
+                 mode: 'python'
+               }"
+       style="width:100%; height: 450px; border-radius: 5px;"
+       ng-model="pyViterbiText">
+  </div>
+  <div style="width:100%; text-align:center;">
+    <br>
+    <hr>
+    <h3>Viterbi Visualization</h3>
+    <p>
+      This is a visualization of the algorithm. Note that the probabilities get
+    smaller and smaller. At some point they will become too small to be usable.
+    This is commonly worked around using logarithms.
+    </p>
+  </div>
+  <div style="width: 100%; height: 400px;" ng-model="viterbiRunData"
+       at-viterbi-visualizer></div>
+  </div>
+</div>

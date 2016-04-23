@@ -13,12 +13,17 @@ angular.module('app').config([
         url: '/home',
         templateUrl: 'app/components/home/home.html',
         controller: 'homeController'
+      })
+      .state('hmm', {
+        url: '/hmm',
+        templateUrl: 'app/components/hmm/hmm.html',
+        controller: 'hmmController'
       });
-    $urlRouterProvider.otherwise('home');
+    $urlRouterProvider.otherwise('hmm');
 
-    $locationProvider.html5Mode({
-      enabled: true,
-      requireBase: false
-    });
+    //$locationProvider.html5Mode({
+    //enabled: true,
+    //requireBase: false
+    //});
   }
 ]);

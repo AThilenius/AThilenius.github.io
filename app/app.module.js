@@ -1,5 +1,12 @@
 // Copyright 2015 Alec Thilenius
 // All rights reserved.
+
+// Override ACE base path
+var requireImpl = ace.require != null ? ace.require : require;
+ace.config.set('basePath', '/assets/ace');
+var Range = requireImpl('ace/range').Range;
+
+// The main App
 var app = angular.module('app', [
   'ngAnimate',
   'ngCookies',
@@ -12,7 +19,9 @@ var app = angular.module('app', [
   'angular-md5',
   'ui.bootstrap.contextMenu',
   'ui.bootstrap',
-  'xeditable'
+  'xeditable',
+  'thilenius.hmm_visualizer',
+  'thilenius.viterbi_visualizer'
 ]);
 
 app.run([
